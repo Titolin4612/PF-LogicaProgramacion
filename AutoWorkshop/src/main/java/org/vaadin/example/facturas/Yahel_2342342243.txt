@@ -1,0 +1,29 @@
+---------- FACTURA ----------
+
+FECHA: 2024-11-25
+
+----------         ----------
+
+DATOS USUARIO: Yahel -- CC: 2342342243 -- TEL: +57 2342342243
+
+----------         ----------
+
+DATOS VEHICULARES:  MARCA: BMW -- MODELO: BMW Serie 4 -- TIPO: Automoviles -- COMBUSTIBLE: Gasolina -- PLACA: KJH789
+
+----------         ----------
+
+SERVICIOS REALIZADOS: [Cambio de aceite, Mantenemiento de cajas automaticas, Cambio de frenos]
+
+----------         ----------
+
+INSUMOS CONSUMIDOS: Aceite de motor, Filtro de aceite, Pastillas de freno, Líquido de frenos, Aceite para transmisión
+
+----------         ----------
+
+VALOR: $620000
+
+IVA: $117800.0
+
+----------         ----------
+
+VALOR TOTAL: $737800.0

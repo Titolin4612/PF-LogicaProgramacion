@@ -1,0 +1,385 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@100;300;400;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+  border: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+.PRINCIPAL_SERVICIOS{
+  background-image: url("../imagenes_css/dos_mecanicos-transformed.jpeg");
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: top;
+}
+.noti_bien{
+  padding: 20px;
+}
+.noti_mal{
+  padding: 20px;
+}
+.texto_info_arriba{
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+.texto_encabezado_servicios{
+
+  color: rgb(255, 255, 255);
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+
+}
+
+.datosPersonales{
+  color: rgb(255, 255, 255);
+}
+
+.nombre,
+.cedula,
+.numero,
+.prefijoNum,
+.modelo,
+.marca,
+.Tipo_de_vehiculo,
+.tipoCombustible,
+.placa,
+.fecha{
+  background: rgba(255, 255, 255, 0.82);
+  border: 2px solid rgba(0, 0, 0, 0.8);
+  border-radius: 8px;
+  padding: 1px;
+  outline: none;
+
+
+}
+
+
+.datosVehiculo{
+  color: rgba(255, 255, 255);
+}
+
+.dialogoOrden{
+
+  background-color: transparent;
+  transition: width 0.5s ease,border-bottom-color 0.5s ease, background-color 0.5s ease;
+  backdrop-filter: blur(6px);
+}
+
+.dialogoOrden::part(header) {
+  font-family: "Poppins", sans-serif;
+  font-weight: 50000000000000000;
+  font-style: normal;
+  font-size: 55px;
+  background-color: rgba(250, 111, 6, 0.8);
+  color: rgba(25, 25, 25, 0.93);
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.dialogoOrden::part(footer) {
+  background-color: rgba(250, 111, 6, 0.8); /* Fondo gris claro */
+  padding: 10px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+
+.centered-content {
+  margin: 0 auto;
+  max-width: 250px;
+}
+
+.botones_normales{
+  background-color: black;
+  width: 150px;
+  border-radius: 30px;
+}
+.textfield{
+
+}
+
+.historial{
+  margin: 10px;
+  color: rgba(255, 255, 255, 1);
+  width: 110px;
+  background: transparent;
+  transition: width 0.5s ease,border-bottom-color 0.5s ease, background-color 0.5s ease;
+  border: none;
+  border-bottom: 2px solid rgb(218, 95, 13);
+  cursor: pointer;
+}
+.historial:hover{
+  border-bottom-color: darkred;
+  width: 150px;
+}
+
+.inicio_servicios{
+  margin: 10px;
+  color: rgba(255, 255, 255, 1);
+  width: 100px;
+  background: transparent;
+  transition: width 0.5s ease,border-bottom-color 0.5s ease, background-color 0.5s ease;
+  border: none;
+  border-bottom: 2px solid rgb(218, 95, 13);
+  cursor: pointer;
+}
+.inicio_servicios:hover{
+  border-bottom-color: darkred;
+  width: 150px;
+}
+
+.crear_orden{
+  margin: 10px;
+  color: rgba(255, 255, 255, 1);
+  width: 150px;
+  background: transparent;
+  transition: width 0.5s ease,border-bottom-color 0.5s ease, background-color 0.5s ease;
+  border: none;
+  border-bottom: 2px solid rgb(218, 95, 13);
+  cursor: pointer;
+}
+.crear_orden:hover{
+  border-bottom-color: darkred;
+  width: 200px;
+}
+
+
+
+.barra_navegacion{
+  padding: 16px;
+  background-color: rgba(25, 25, 25, 0.85);
+  padding: 10px;
+  border-radius: 30px;
+  align-items: baseline;
+}
+
+.separador{
+  background-color: rgba(218, 95, 13, 0.25);
+  border-radius: 30px;
+}
+.contenedor_final{
+  padding: 16px;
+  align-items: center;
+
+  /*
+  background: transparent;
+  backdrop-filter: blur(25px);
+  border: solid rgba(142, 142, 142, 0.87);
+  */
+
+  background-color: rgba(25, 25, 25, 0.85);
+  border-radius: 30px;
+  border: solid rgba(218, 95, 13, 0.58);
+
+}
+
+
+/**
+
+ */
+
+.boton_inicio{
+
+}
+.barra_info{
+  align-content: center;
+  background-color: rgba(250, 111, 6, 0.8);
+  padding: 0;
+}
+
+.texto_info_b{
+
+  color: white;
+}
+
+/**
+Inicio CSS Pagina Principal
+ */
+
+.contenedor-principal-presentacion{
+  background-image: url("../imagenes_css/fondo_principal_calidad.jpeg");
+  background-size: cover;
+  background-position: center;
+  justify-content: center; /*ALINEAR EN Y*/
+}
+
+.h1-h2-generico-titulo-principal{
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 55px;
+  color: white;
+}
+.h1-h2-generico{
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 40px;
+  color: white;
+}
+.h1-h2-generico-negro{
+  font-family: "Bebas Neue", sans-serif;
+  font-width: 400;
+  font-style: normal;
+  color: #ffffff;
+}
+.h3-h4-generico-negro{
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgba(255, 255, 255, 0.99);
+}
+.panel_superior{
+  align-items: center;
+  justify-content: center;
+  background-color: #000000;
+  backdrop-filter: blur(20px);
+
+}
+.boton_panesup_generico{
+
+  margin: 10px;
+  color: rgba(255, 255, 255, 1);
+  width: 100px;
+  background: transparent;
+  transition: width 0.5s ease,border-bottom-color 0.5s ease, background-color 0.5s ease;
+  border: none;
+  border-bottom: 2px solid rgb(218, 95, 13);
+  cursor: pointer;
+
+}
+
+
+.boton_panesup_generico:hover{
+
+  border-bottom-color: darkred;
+  width: 150px;
+
+
+}
+.boton_cotizar_principal{
+
+  background-color: transparent;
+  color: rgb(218, 95, 13);
+  transition: background-color 0.5s ease, scale 0.5s ease, display 0.5s ease, margin 0.5s ease;
+  font-size: 16px;
+  padding: 15px;
+
+
+
+}
+.boton_cotizar_principal:hover{
+  margin: 10px;
+  background-color: white;
+  scale: 1.5;
+
+
+}
+.boton_cotizar_principal:active{
+
+}
+.segundo_contenedor{
+  background-color: #000000;
+  align-items: baseline;
+
+}
+.subcontenedor_segundo{
+  margin: 10px 20px 10px 10px;
+  background-color: rgba(25, 25, 25, 0.78);
+  border: 5px solid rgba(250, 111, 6, 0.8);
+  border-radius: 30px;;
+  height: 60%;
+}
+.contenedor_mayor_historial{
+  background-color: darkcyan;
+  border-radius: 30px;
+}
+.contenedores_info_historial{
+  background-color: darkgrey;
+  border-radius: 30px;
+  margin: 10px;
+}
+.mapa_googlemaps{
+  border: 5px solid rgba(250, 111, 6, 0.8);
+  border-radius: 30px;
+  height: 58%;
+  width: 60%;
+  margin: 10px 10px 10px 20px;
+  cursor: pointer;
+}
+.contenedor-titulo-y-cotizar{
+  background: transparent;
+  backdrop-filter: blur(10px);
+  border: solid 2px ;
+  border-image: linear-gradient(to right, darkred, orange) 1;
+  border-radius: 30px;
+}
+
+/**
+Inicio CSS Historial
+ */
+
+.HISTORIAL_PRINCIPAL{
+  background: black;
+  background-image: url("../imagenes_css/fondo_historial.jpeg");
+  background-repeat: repeat-y;
+  background-size:cover;
+  background-position: top;
+}
+
+.contenedor_mayor_historial{
+  background: rgba(25, 25, 25, 0.91);
+  border: 5px solid rgba(250, 111, 6, 0.8);
+}
+
+.contenedores_info_historial{
+  font-family: monospace;
+  font-weight: 700;
+  border: 3px solid rgba(250, 111, 6, 0.8);
+  background: #bdbdbd;
+}
+
+.barraSuperior{
+  background: rgba(25, 25, 25, 0.85);
+  border-radius: 25px;
+}
+
+.boton_volverAlInicio{
+  margin: 10px;
+  color: rgba(255, 255, 255, 1);
+  width: 150px;
+  background: transparent;
+  transition: width 0.5s ease,border-bottom-color 0.5s ease, background-color 0.5s ease;
+  border: none;
+  border-bottom: 2px solid rgb(218, 95, 13);
+  cursor: pointer;
+}
+.boton_volverAlInicio:hover{
+  border-bottom-color: darkred;
+  width: 200px;
+}
+
+.boton_volverAlCotizar{
+  margin: 10px;
+  color: rgba(255, 255, 255, 1);
+  width: 150px;
+  background: transparent;
+  transition: width 0.5s ease,border-bottom-color 0.5s ease, background-color 0.5s ease;
+  border: none;
+  border-bottom: 2px solid rgb(218, 95, 13);
+  cursor: pointer;
+}
+.boton_volverAlCotizar:hover{
+  border-bottom-color: darkred;
+  width: 200px;
+}
